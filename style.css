@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+}
+.container {
+    padding-top: 12px;
+    display: flex;
+    align-items: center;
+    
+    max-width: 1200px;
+   
+}
+.videoFrame {
+    margin: 10px;
+}
+.title {
+    align-self: center;
+    
+}
+.topBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    color: rgb(0, 0, 0);
+    width: 95%;
+    max-width: 1200px;
+    /* background-color: rgb(234, 24, 24); */
+}
+
+.topBarContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+.button {
+    text-decoration: none;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    padding: 4px 8px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.button :active {
+    color: rgb(93, 156, 250);
+}
+
+h1, h3 {
+    margin-top: 24px;
+    color: rgb(150, 129, 129);
+}
